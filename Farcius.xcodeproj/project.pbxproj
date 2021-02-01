@@ -13,6 +13,8 @@
 		3F3CAC0125C5E0C20076179A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CAC0025C5E0C20076179A /* Game.swift */; };
 		3F3CAC0425C5E8220076179A /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CAC0325C5E8220076179A /* Temperature.swift */; };
 		3F3CAC0725C5ECF10076179A /* TemperatureGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CAC0625C5ECF10076179A /* TemperatureGenerator.swift */; };
+		766FE52825C8020B00C6384A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766FE52725C8020B00C6384A /* Colors.xcassets */; };
+		766FE53225C8103A00C6384A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766FE53125C8103A00C6384A /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3F3CAC0025C5E0C20076179A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		3F3CAC0325C5E8220076179A /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		3F3CAC0625C5ECF10076179A /* TemperatureGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureGenerator.swift; sourceTree = "<group>"; };
+		766FE52725C8020B00C6384A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		766FE53125C8103A00C6384A /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		3F3CABEF25C5DDFC0076179A /* Farcius */ = {
 			isa = PBXGroup;
 			children = (
+				766FE53125C8103A00C6384A /* Colors.swift */,
 				3F3CABF025C5DDFC0076179A /* CorfApp.swift */,
 				3F3CABF425C5DE000076179A /* Assets.xcassets */,
 				3F3CABF925C5DE000076179A /* Info.plist */,
@@ -63,6 +68,7 @@
 				3F3CAC0025C5E0C20076179A /* Game.swift */,
 				3F3CAC0325C5E8220076179A /* Temperature.swift */,
 				3F3CAC0625C5ECF10076179A /* TemperatureGenerator.swift */,
+				766FE52725C8020B00C6384A /* Colors.xcassets */,
 			);
 			path = Farcius;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766FE52825C8020B00C6384A /* Colors.xcassets in Resources */,
 				3F3CABF825C5DE000076179A /* Preview Assets.xcassets in Resources */,
 				3F3CABF525C5DE000076179A /* Assets.xcassets in Resources */,
 			);
@@ -145,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3CAC0725C5ECF10076179A /* TemperatureGenerator.swift in Sources */,
+				766FE53225C8103A00C6384A /* Colors.swift in Sources */,
 				3F3CAC0125C5E0C20076179A /* Game.swift in Sources */,
 				3F3CAC0425C5E8220076179A /* Temperature.swift in Sources */,
 				3F3CABF125C5DDFC0076179A /* CorfApp.swift in Sources */,
